@@ -22,6 +22,10 @@ ktor {
     fatJar {
         archiveFileName.set("fys.jar")
     }
+    docker {
+        localImageName.set("fys-api-image")
+        imageTag.set("0.0.1")
+    }
 }
 repositories {
     mavenCentral()
