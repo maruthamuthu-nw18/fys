@@ -1,0 +1,1 @@
+rootProject.name = "com.nw18.moneycontrol.fys-api"
